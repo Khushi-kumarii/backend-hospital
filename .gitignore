@@ -1,0 +1,20 @@
+# Node.js
+node_modules/           # Exclude the node_modules directory
+npm-debug.log*          # Exclude npm debug logs
+yarn-error.log*         # Exclude yarn error logs
+package-lock.json       # Optional: If you want to exclude the lock file, but generally recommended to keep
+yarn.lock               # Exclude yarn lock file (if using Yarn instead of npm)
+
+# Environment files
+.env                    # Exclude environment variable files
+
+# Log files
+*.log                   # Exclude all log files
+
+# OS-specific files
+.DS_Store               # Mac OS specific file
+Thumbs.db               # Windows specific file
+
+# Build artifacts (if any)
+dist/                   # Exclude build output (if you’re using a build tool like Babel or Webpack)
+build/                  # Exclude build output
